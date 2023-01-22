@@ -21,8 +21,8 @@
             /*   --secondary-font:'Bad Script', cursive; */
             --secondary-font: 'Meddon', cursive;
             --body-font: 'Cabin';
+          
             
-            sans-serif;
             --Main-font-color-dark: #252525;
             --secondary-font-color: #c59d5f;
             --body-font-color: #515151;
@@ -151,11 +151,9 @@
 
         .nav-item {
             border-bottom: 2px solid rgba(255, 255, 255, .3);
-        }
-
         display: block;
         color: #ffffff;
-
+        }
         .nav-link {
             text-transform: uppercase;
             font-size: 1.6rem;
