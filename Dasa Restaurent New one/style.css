@@ -1,4 +1,7 @@
-
+.logo{
+    flex-basis: 15%;
+    padding-left: 50px;
+}
         @import url('https://fonts.googleapis.com/css2?family=Meddon&family=Montez&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400, 900display=swap');
@@ -17,8 +20,7 @@
 
         :root {
             --main-font: 'Source Sans Pro', sans-serif;
-            /*   --secondary-font:'Herr Von Muellerhoff', cursive; */
-            /*   --secondary-font:'Bad Script', cursive; */
+            
             --secondary-font: 'Meddon', cursive;
             --body-font: 'Cabin';
           
@@ -37,7 +39,7 @@
 
         body {
             overflow-x: hidden;
-            /* 溢出邊界範圍_區塊層捲軸呈現方式 when animation-scale bigger than fullscreen status */
+            
         }
 
         section {
@@ -474,6 +476,7 @@
 
         .social-icons i:hover,
         .social-icons i:focus {
+            
             color: var(--secondary-font-color);
         }
 
